@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)vyb#&zoge+!1%l6!(eu70uket(fs@ts#^9@=b%h*e#(@_ad2j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -65,7 +65,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-  'http://localhost:5174'
+  "https://booking-app-5i5q.vercel.app/"
 ]
 CORS_ALLOW_ALL_ORIGINS= True
 CORS_ALLOW_CREDENTIALS= True
